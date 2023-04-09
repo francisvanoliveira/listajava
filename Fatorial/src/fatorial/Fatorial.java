@@ -9,13 +9,14 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * 45.Escreva um programa que leia um número inteiro e determine o seu fatorial. 
+ * Utilize a classe BigInteger do Java para lidar com números muito grandes.
  */
 public class Fatorial {
 
     /**
-     * @param args the command line arguments
+     * Realiza operação do fatotial do número informado pelo usuário. O programa também valida se o valor informado é inteiro e positivo
      */
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);

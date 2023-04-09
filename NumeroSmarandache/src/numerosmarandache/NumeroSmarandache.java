@@ -8,13 +8,15 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * 69.Escreva um programa que leia um número inteiro e determine se ele é um número de Smarandache. 
+ * Um número de Smarandache é um número inteiro positivo que é divisível pela quantidade de seus divisores.
  */
 public class NumeroSmarandache {
 
     /**
-     * @param args the command line arguments
+     * Realiza a leitura do valor informado pelo usuário e verifica se o valor inteiro é divisível pela quantidade de seus divisores.
+     * O programa também valida se o valor informado é inteiro e positivo.
      */
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);

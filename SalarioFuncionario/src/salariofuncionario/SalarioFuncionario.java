@@ -7,13 +7,13 @@ package salariofuncionario;
 import java.util.Scanner;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * 10.Crie uma classe "Funcionario" com os atributos "nome", "salario" e "cargo". Escreva um método que determine o imposto de renda a ser pago pelo funcionário, considerando que a alíquota é de 10% para salários até R$ 1.500,00 e de 20% para salários acima disso.
  */
 public class SalarioFuncionario {
 
     /**
-     * @param args the command line arguments
+     * Recebe os valores informado pelo usuário (nome, cargo e salário) e imprime na tela o resultado do imposto. O progama verifica se o salário é nagativo
      */
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);
@@ -25,14 +25,19 @@ public class SalarioFuncionario {
         String cargo = reading.nextLine();
         
         System.out.print("Informe o salário:  ");
-        double salario = reading.nextDouble();       
+        double salario = reading.nextDouble();  
         
-        Funcionario funcionario = new Funcionario(nome, salario, cargo);
+        if(salario < 0){
+            System.out.println("Erro: você digitou um valor negativo. O programa foi encerrado!");
+        }else{
+            Funcionario funcionario = new Funcionario(nome, salario, cargo);
         
-        System.out.println("CALCULO IMPOSTO");
-        System.out.println("Nome: " + funcionario.getNome());
-        System.out.println("Cargo: " + funcionario.getCargo());
-        System.out.println("Calculo: " + funcionario.calculaImposto());
+            System.out.println("CALCULO IMPOSTO");
+            System.out.println("Nome: " + funcionario.getNome());
+            System.out.println("Cargo: " + funcionario.getCargo());
+            System.out.println("Calculo: " + funcionario.calculaImposto());
+            
+        }
         
     }
     

@@ -8,13 +8,13 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * 9.Escreva um programa que leia um número inteiro e imprima a sequência de Fibonacci até o número informado. Utilize um loop while e estruturas condicionais.
  */
 public class Fibonacci {
 
     /**
-     * @param args the command line arguments
+     * Realiza a operação de ler o valor informado pelo usuário e imprime a sequencia Fibonacci. O programa também valida se o valor informado é inteiro e positivo
      */
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);

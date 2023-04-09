@@ -5,8 +5,7 @@
 package perimetroretangulo;
 
 /**
- *
- * @author franc
+ *Criado a classe retagulo que irá processas os valores de largura e altura para obeter o perímetro.
  */
 public class Retangulo {
     private double largura;

@@ -8,13 +8,16 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira
+ * 25.Escreva um programa que leia um número inteiro e determine se ele é um número perfeito ou não. 
+ * Um número é considerado perfeito se a soma de seus divisores (exceto ele mesmo) é igual ao próprio número. 
+ * Utilize um loop for e estruturas condicionais.
  */
 public class NumeroPerfeito {
 
     /**
-     * @param args the command line arguments
+     * Realiza o processo para verificar se o número informado pelo usuário é perfeito ou não. O programa também valida se o valor informado é inteiro e positivo.
+     * 
      */
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);

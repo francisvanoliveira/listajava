@@ -7,13 +7,13 @@ package perimetroretangulo;
 import java.util.Scanner;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * 26.Crie uma classe "Retangulo" com os atributos "largura" e "altura". Escreva um método que calcule a área do retângulo e outro método que calcule o perímetro.
  */
 public class PerimetroRetangulo {
 
     /**
-     * @param args the command line arguments
+     * Metodo onde o usuário informa a largura e altura e imprime na tela a áerea e perímetro. O programa também valida se o valor informado é positivo.
      */
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);
@@ -24,10 +24,16 @@ public class PerimetroRetangulo {
         System.out.println("Informe a altura ");
         double altura = reading.nextDouble();
         
-        Retangulo retangulo = new Retangulo(largura, altura);
+        if(largura < 0 || altura < 0){
+            System.out.println("Erro: você digitou algum valor negativo. O programa foi encerrado!");
+        }else{
+            Retangulo retangulo = new Retangulo(largura, altura);
         
-        System.out.println("Área do retangulo: " + retangulo.calcularArea());
-        System.out.println("Perímetro do retangulo: " + retangulo.calcularPerimetro());
+            System.out.println("Área do retangulo: " + retangulo.calcularArea());
+            System.out.println("Perímetro do retangulo: " + retangulo.calcularPerimetro());
+            
+        }       
+        
     }
     
 }

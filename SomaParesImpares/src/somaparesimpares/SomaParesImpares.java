@@ -8,13 +8,13 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * 11.Escreva um programa que leia uma sequência de números inteiros e imprima a soma dos números pares e a soma dos números ímpares. Utilize um loop for e estruturas condicionais.
  */
 public class SomaParesImpares {
 
     /**
-     * @param args the command line arguments
+     * Recebe o valor informado pelo usuário e realiza a soma dos valores que são pares e os que são impares. O programa também valida se o valor informado é inteiro e positivo.
      */
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);
@@ -24,8 +24,8 @@ public class SomaParesImpares {
             System.out.print("Digite a quantidade de números para sequência: ");
             n = reading.nextInt();
             
-            if(n < 1){
-                System.out.println("Erro: você digitou um valor menor que 1. O programa foi encerrado!");
+            if(n < 0){
+                System.out.println("Erro: você digitou um valor negativo. O programa foi encerrado!");
             }else{
                 
                 for (int i = 0; i < n; i++) {

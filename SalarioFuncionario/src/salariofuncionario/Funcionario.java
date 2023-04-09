@@ -5,8 +5,7 @@
 package salariofuncionario;
 
 /**
- *
- * @author franc
+ * Classe fucnionario que recebe os valores de nome, salario e cargo e realiza a opereação de calculat o imposto sobre o salarioinformado.
  */
 public class Funcionario {
     private String nome;

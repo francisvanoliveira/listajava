@@ -7,13 +7,14 @@ package sacarcontabancaria;
 import java.util.Scanner;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * 12.Crie uma classe "ContaBancaria" com os atributos "titular", "saldo" e "limite". 
+ * Escreva um método que permita sacar dinheiro da conta, considerando que o saldo não pode ficar negativo e que o valor do saque não pode ser maior que o saldo mais o limite.
  */
 public class SacarContaBancaria {
 
     /**
-     * @param args the command line arguments
+     * Foi definido ja no programa os valores para titular, saldo e limite e mostra na tela o resultado do saque.
      */
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);

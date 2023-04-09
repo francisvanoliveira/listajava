@@ -5,8 +5,7 @@
 package tipotriangulo;
 
 /**
- *
- * @author franc
+ * Classe triangulo que recebe os valoes de lado1, lado2 , lado3 e realiza o calculo para determina qual o tipo do triangulo.
  */
 public class Triangulo {
 

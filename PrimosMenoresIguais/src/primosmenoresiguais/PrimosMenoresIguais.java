@@ -8,13 +8,13 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * 13.Escreva um programa que leia um número inteiro positivo e imprima todos os números primos menores ou iguais a ele. Utilize um loop while e estruturas condicionais.
  */
 public class PrimosMenoresIguais {
 
     /**
-     * @param args the command line arguments
+     * Realiza a leitura do valor informado pelo usuário e imprime na tela os números primos menores que ele. O programa também valida se o valor informado é inteiro e positivo.
      */
     public static void main(String[] args) {
        Scanner reading = new Scanner(System.in);

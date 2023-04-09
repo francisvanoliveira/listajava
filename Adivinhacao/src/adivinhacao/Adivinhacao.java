@@ -8,13 +8,14 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * 2.Escreva um programa em Java que simula um jogo de adivinhação. 
+ * O programa deve gerar um número aleatório entre 1 e 100 e solicitar ao usuário que adivinhe o número.
  */
 public class Adivinhacao {
 
     /**
-     * @param args the command line arguments
+     * Realiza a simulação de um jogo de adivinhação, gerando números aleatórios de 0 a 100.
      */
     public static void main(String[] args) {
         Random gerador = new Random();

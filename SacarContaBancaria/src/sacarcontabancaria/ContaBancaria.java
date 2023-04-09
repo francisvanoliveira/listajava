@@ -5,8 +5,7 @@
 package sacarcontabancaria;
 
 /**
- *
- * @author franc
+ * Classe que recebe os valores do titular, saldo, limite e valor para realizar a operação de sacar o dinheiro da conta.
  */
 public class ContaBancaria {
     

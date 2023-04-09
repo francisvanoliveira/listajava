@@ -5,13 +5,13 @@
 package tipotriangulo;
 
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * 22.Crie uma classe "Triangulo" com os atributos "lado1", "lado2" e "lado3". Escreva um método que determine se o triângulo é equilátero, isósceles ou escaleno.
  */
 public class TipoTriangulo {
 
     /**
-     * @param args the command line arguments
+     * Ja foi definido no programa os valores dos triangulos para cada um ser equilátero, isósceles ou escaleno.
      */
     public static void main(String[] args) {
         Triangulo t1 = new Triangulo(5, 5, 5);

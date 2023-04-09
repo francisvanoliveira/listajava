@@ -5,8 +5,8 @@
 package diaseguinte;
 import java.time.LocalDate;
 /**
- *
- * @author franc
+ * @author Francisvan Oliveira Pessoa
+ * Classe Data reliza operação de obeter a data atual do sistema
  */
 public class Data {
     private int dia;
@@ -14,7 +14,7 @@ public class Data {
     private int ano;
     
     public Data() {
-        LocalDate hoje = LocalDate.now();
+        LocalDate hoje = LocalDate.now(); //para pegar a data atual so sistema
         this.dia = hoje.getDayOfMonth();
         this.mes = hoje.getMonthValue();
         this.ano = hoje.getYear();
